@@ -14,10 +14,11 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>IoC Extension CQRS Puffix Framework</PackageTags>
     <PackageReleaseNotes>IoC for Puffix CQRS framework implementation.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Puffix.Cqrs" Version="1.0.0" />
+    <PackageReference Include="Puffix.Cqrs" Version="1.0.1" />
     <PackageReference Include="Puffix.IoC" Version="1.1.0" />
   </ItemGroup>
 
