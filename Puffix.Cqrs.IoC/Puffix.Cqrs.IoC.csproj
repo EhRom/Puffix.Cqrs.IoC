@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Puffix.io - Romain Ehret</Authors>
+    <Description>IoC extension for puffix CQRS framework implementation.</Description>
+    <Copyright>Copyright 2021 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/EhRom/Puffix.Cqrs.IoC</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EhRom/Puffix.Cqrs.IoC</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>IoC Extension CQRS Puffix Framework</PackageTags>
+    <PackageReleaseNotes>IoC for Puffix CQRS framework implementation.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Puffix.Cqrs" Version="1.0.0" />
+    <PackageReference Include="Puffix.IoC" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
