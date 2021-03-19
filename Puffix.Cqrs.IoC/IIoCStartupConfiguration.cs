@@ -6,6 +6,6 @@ namespace Puffix.Cqrs.IoC
     /// <summary>
     /// Interface pour intégrer
     /// </summary>
-    interface IIoCStartupConfiguration : IStartupConfiguration, IIoCContainer
+    public interface IIoCStartupConfiguration : IStartupConfiguration, IIoCContainer
     { }
 }
