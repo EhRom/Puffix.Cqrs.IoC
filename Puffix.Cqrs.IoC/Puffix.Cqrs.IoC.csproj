@@ -1,29 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.1;net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Puffix.io - Romain Ehret</Authors>
 		<Description>IoC extension for puffix CQRS framework implementation.</Description>
-		<Copyright>Copyright 2022 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+		<Copyright>Copyright 2023 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
 		<PackageLicenseFile>Licence.txt</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/EhRom/Puffix.Cqrs.IoC</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/EhRom/Puffix.Cqrs.IoC</RepositoryUrl>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageTags>IoC Extension CQRS Puffix Framework</PackageTags>
 		<PackageReleaseNotes>IoC for Puffix CQRS framework implementation.</PackageReleaseNotes>
-		<Version>3.1.0</Version>
-		<AssemblyVersion>3.1.0.0</AssemblyVersion>
-		<AssemblyFileVersion>3.1.0.0</AssemblyFileVersion>
+		<Version>3.2.0</Version>
+		<AssemblyVersion>3.2.0.0</AssemblyVersion>
+		<AssemblyFileVersion>3.2.0.0</AssemblyFileVersion>
 		<FileVersion></FileVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Puffix.Cqrs" Version="3.1.0" />
-		<PackageReference Include="Puffix.IoC" Version="3.1.0" />
+		<PackageReference Include="Puffix.Cqrs" Version="3.2.0" />
+		<PackageReference Include="Puffix.IoC" Version="3.2.0" />
 	</ItemGroup>
 
 	<ItemGroup>

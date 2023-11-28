@@ -1,8 +1,7 @@
 ﻿using Puffix.Cqrs.Startup;
 using Puffix.IoC;
 
-namespace Puffix.Cqrs.IoC
-{
-    public interface IIoCStartupConfiguration : IStartupConfiguration, IIoCContainer
-    { }
-}
+namespace Puffix.Cqrs.IoC;
+
+public interface IIoCStartupConfiguration : IStartupConfiguration, IIoCContainer
+{ }
