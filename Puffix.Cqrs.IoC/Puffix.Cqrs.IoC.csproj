@@ -14,16 +14,16 @@
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageTags>IoC Extension CQRS Puffix Framework</PackageTags>
 		<PackageReleaseNotes>IoC for Puffix CQRS framework implementation.</PackageReleaseNotes>
-		<Version>3.3.1</Version>
-		<AssemblyVersion>3.3.1.0</AssemblyVersion>
-		<AssemblyFileVersion>3.3.1.0</AssemblyFileVersion>
+		<Version>3.3.2</Version>
+		<AssemblyVersion>3.3.2.0</AssemblyVersion>
+		<AssemblyFileVersion>3.3.2.0</AssemblyFileVersion>
 		<FileVersion></FileVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Puffix.Cqrs" Version="3.3.1" />
-		<PackageReference Include="Puffix.IoC" Version="3.3.0" />
+		<PackageReference Include="Puffix.Cqrs" Version="3.3.2" />
+		<PackageReference Include="Puffix.IoC" Version="3.3.1" />
 	</ItemGroup>
 
 	<ItemGroup>
